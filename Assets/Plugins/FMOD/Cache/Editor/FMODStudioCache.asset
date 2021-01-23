@@ -33,7 +33,7 @@ MonoBehaviour:
   Min: 0
   Max: 5
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-8801219592280697894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -120,7 +120,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-7082905894149496013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -138,6 +138,23 @@ MonoBehaviour:
   Max: 5
   Default: 0
   Exists: 0
+--- !u!114 &-6974234457999676978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/jump & Land/Jump Or Land
+  m_EditorClassIdentifier: 
+  Name: Jump Or Land
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
 --- !u!114 &-6448818903246970763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -153,6 +170,40 @@ MonoBehaviour:
   Name: Speed Switch
   Min: 0
   Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-6079161211519382647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 'parameter:/Footsteps/Material '
+  m_EditorClassIdentifier: 
+  Name: 'Material '
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 1
+--- !u!114 &-6026649689497314044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/jump & Land/Jump Or Land
+  m_EditorClassIdentifier: 
+  Name: Jump Or Land
+  Min: 0
+  Max: 2
   Default: 0
   Exists: 0
 --- !u!114 &-5963150083991804063
@@ -204,10 +255,10 @@ MonoBehaviour:
   Path: event:/3D/Doors
   guid: d704738ade6cd04d85194dfe4a7101d6
   Banks:
-  - {fileID: -359574760220624792}
+  - {fileID: -2299447580541679239}
   IsStream: 1
   Is3D: 1
-  IsOneShot: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
@@ -227,7 +278,7 @@ MonoBehaviour:
   Path: event:/3D/Shrub
   guid: 60efe6c34c43a4478458d6d756096435
   Banks:
-  - {fileID: -359574760220624792}
+  - {fileID: -2299447580541679239}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -371,7 +422,7 @@ MonoBehaviour:
   Path: event:/3D/AMB Chest
   guid: 07d0451c3d49d345bad1517beb5bcff4
   Banks:
-  - {fileID: -359574760220624792}
+  - {fileID: -2299447580541679239}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -414,6 +465,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &-3772958708487138670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 'parameter:/Footsteps/Material '
+  m_EditorClassIdentifier: 
+  Name: 'Material '
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 0
 --- !u!114 &-3731005673578632374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -450,6 +518,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-3217606071596056781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../SOUNDPACK REV3/SD TEST RAV3/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637470134540000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-3093879776133868259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -482,7 +568,7 @@ MonoBehaviour:
   Path: event:/3D/Tree
   guid: 5cedfe33859e3e4ab7bb25af41046ab9
   Banks:
-  - {fileID: -359574760220624792}
+  - {fileID: -2299447580541679239}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -505,7 +591,7 @@ MonoBehaviour:
   Path: event:/2D/RoomTone+AMB/AMB Wind
   guid: 57ce7360814ad147a5b157dae2d86a82
   Banks:
-  - {fileID: -359574760220624792}
+  - {fileID: -2299447580541679239}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -547,6 +633,42 @@ MonoBehaviour:
   Max: 5
   Default: 0
   Exists: 0
+--- !u!114 &-2368479936793020919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../SOUNDPACK REV3/SD TEST RAV3/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637470150290000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-2299447580541679239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../SOUNDPACK REV3/SD TEST RAV3/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637470151320000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-2184122390594179794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -564,6 +686,23 @@ MonoBehaviour:
   Max: 5
   Default: 0
   Exists: 0
+--- !u!114 &-2159129224626623159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 'parameter:/jump & Land/Material '
+  m_EditorClassIdentifier: 
+  Name: 'Material '
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 1
 --- !u!114 &-2036359288000515957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -579,7 +718,7 @@ MonoBehaviour:
   Path: event:/3D/AMB Creek
   guid: 9a64498fb6ecee41a84c6749c57032cb
   Banks:
-  - {fileID: -359574760220624792}
+  - {fileID: -2299447580541679239}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -655,7 +794,7 @@ MonoBehaviour:
   Path: event:/3D/lamp
   guid: ed0dbde405a4144e98dab919604500a5
   Banks:
-  - {fileID: -359574760220624792}
+  - {fileID: -2299447580541679239}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -663,6 +802,23 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 4.8
   Length: 84950
+--- !u!114 &-848039871543511673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/Speed Switch
+  m_EditorClassIdentifier: 
+  Name: Speed Switch
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-485813618207235341
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -714,7 +870,7 @@ MonoBehaviour:
   lastModified: 637469294610000000
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-270602701802837497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -732,6 +888,24 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &-257461139935028282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../SOUNDPACK REV3/SD TEST RAV3/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637470147190000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-203316399184103994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -747,7 +921,7 @@ MonoBehaviour:
   Path: event:/3D/Metal Panel
   guid: ed1894cb6eb3c14d943ae1a1f18f25f4
   Banks:
-  - {fileID: -359574760220624792}
+  - {fileID: -2299447580541679239}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -769,7 +943,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 1359972774977020571}
-  - {fileID: -359574760220624792}
+  - {fileID: -2299447580541679239}
   EditorEvents:
   - {fileID: 4559677252274771945}
   - {fileID: -4582659349141554225}
@@ -788,11 +962,28 @@ MonoBehaviour:
   - {fileID: 3532892763762686009}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -359574760220624792}
+  - {fileID: -2299447580541679239}
   StringsBanks:
   - {fileID: 1359972774977020571}
-  stringsBankWriteTime: 637469294610000000
+  stringsBankWriteTime: 637470151320000000
   cacheVersion: 3
+--- !u!114 &85348629823246922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/Speed Switch
+  m_EditorClassIdentifier: 
+  Name: Speed Switch
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &472690956395913768
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -808,7 +999,7 @@ MonoBehaviour:
   Path: event:/3D/Fly
   guid: 1de8b1028c2b67469c0a0f0b64fc55b8
   Banks:
-  - {fileID: -359574760220624792}
+  - {fileID: -2299447580541679239}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -937,6 +1128,23 @@ MonoBehaviour:
   Max: 2
   Default: 0
   Exists: 0
+--- !u!114 &1326961228303362381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 'parameter:/Footsteps/Material '
+  m_EditorClassIdentifier: 
+  Name: 'Material '
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 1
 --- !u!114 &1359972774977020571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -951,7 +1159,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../SOUNDPACK REV3/SD TEST RAV3/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637469294610000000
+  lastModified: 637470151320000000
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -968,6 +1176,23 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: 'parameter:/Footsteps/Material '
+  m_EditorClassIdentifier: 
+  Name: 'Material '
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 0
+--- !u!114 &1556059443840781620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 'parameter:/jump & Land/Material '
   m_EditorClassIdentifier: 
   Name: 'Material '
   Min: 0
@@ -1008,6 +1233,23 @@ MonoBehaviour:
   Max: 5
   Default: 0
   Exists: 0
+--- !u!114 &2018703710483497300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/Speed Switch
+  m_EditorClassIdentifier: 
+  Name: Speed Switch
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &2095171698155118544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1092,7 +1334,7 @@ MonoBehaviour:
   Path: event:/3D/Flag
   guid: 695633320290f641bbc40b3ff0fd0d41
   Banks:
-  - {fileID: -359574760220624792}
+  - {fileID: -2299447580541679239}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -1132,7 +1374,7 @@ MonoBehaviour:
   Path: event:/3D/Chest
   guid: f8b5260acae9ac45ac69a804874c0927
   Banks:
-  - {fileID: -359574760220624792}
+  - {fileID: -2299447580541679239}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -1155,13 +1397,13 @@ MonoBehaviour:
   Path: event:/2D/Personal/Footsteps
   guid: 4c573849e8b4d44a92bfcf864cdbc540
   Banks:
-  - {fileID: -359574760220624792}
+  - {fileID: -2299447580541679239}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: -7127001002112667335}
-  - {fileID: 7401297389402659208}
+  - {fileID: 2018703710483497300}
+  - {fileID: -6079161211519382647}
   MinDistance: 0
   MaxDistance: 0
   Length: 0
@@ -1199,6 +1441,23 @@ MonoBehaviour:
   Max: 5
   Default: 0
   Exists: 0
+--- !u!114 &4183559390809594770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 'parameter:/jump & Land/Material '
+  m_EditorClassIdentifier: 
+  Name: 'Material '
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 1
 --- !u!114 &4221003222439970312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1214,7 +1473,7 @@ MonoBehaviour:
   Path: event:/3D/Car
   guid: 794dfce80bceda4ca4c4a0bb9357d5ec
   Banks:
-  - {fileID: -359574760220624792}
+  - {fileID: -2299447580541679239}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -1223,6 +1482,23 @@ MonoBehaviour:
   MaxDistance: 6
   Length: 5500
 --- !u!114 &4355830444609619958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/jump & Land/Jump Or Land
+  m_EditorClassIdentifier: 
+  Name: Jump Or Land
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &4514822090726864654
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1254,7 +1530,7 @@ MonoBehaviour:
   Path: event:/2D/RoomTone+AMB/RoomTone Panelka
   guid: 0394509e10b65c46a6ac12760c5c64a6
   Banks:
-  - {fileID: -359574760220624792}
+  - {fileID: -2299447580541679239}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -1341,6 +1617,40 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: 'parameter:/Footsteps/Material '
+  m_EditorClassIdentifier: 
+  Name: 'Material '
+  Min: 0
+  Max: 5
+  Default: 0
+  Exists: 0
+--- !u!114 &5566548666906041387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/Speed Switch
+  m_EditorClassIdentifier: 
+  Name: Speed Switch
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &5728749495948740528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 'parameter:/jump & Land/Material '
   m_EditorClassIdentifier: 
   Name: 'Material '
   Min: 0
@@ -1450,6 +1760,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &7151003254999096836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/jump & Land/Jump Or Land
+  m_EditorClassIdentifier: 
+  Name: Jump Or Land
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
 --- !u!114 &7313247802344549907
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1483,7 +1810,7 @@ MonoBehaviour:
   Min: 0
   Max: 5
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &7832769829581079051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1516,13 +1843,13 @@ MonoBehaviour:
   Path: event:/2D/Personal/jump & Land
   guid: 3e33b17a9afb68478c130c19b9276914
   Banks:
-  - {fileID: -359574760220624792}
+  - {fileID: -2299447580541679239}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: -9083532526731950721}
-  - {fileID: 4355830444609619958}
+  - {fileID: 4183559390809594770}
+  - {fileID: -6974234457999676978}
   MinDistance: 0
   MaxDistance: 0
   Length: 514
@@ -1609,5 +1936,22 @@ MonoBehaviour:
   Name: Jump Or Land
   Min: 0
   Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &9033685070673528211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 'parameter:/Footsteps/Material '
+  m_EditorClassIdentifier: 
+  Name: 'Material '
+  Min: 0
+  Max: 5
   Default: 0
   Exists: 0
